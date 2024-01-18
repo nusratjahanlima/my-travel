@@ -1,0 +1,117 @@
+@media screen and (max-width: 600px) {
+    .header-section {
+      flex-direction: column;
+      margin-left: 50px;
+    }
+  
+    .items-container {
+      flex-direction: column;
+      margin-left: 50px;
+      gap: 20px;
+    }
+  
+    .banner-section {
+      padding: 0rem 2rem 2.322rem 2rem;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+    .banner-contain {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      width: 100%;
+  
+    }
+  
+    .banner-text-container {
+      margin-bottom: 2.6rem;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .banner-text-form {
+      margin: 0rem 0.35rem 0rem 0.25rem;
+      padding: 1.6rem;
+      width: calc(100% - 0.6rem);
+      row-gap: 0.6rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(255, 255, 255, 0.3000000119);
+      border-radius: 0.8rem;
+    }
+  
+    .destination-area, .destination-area-snak, .destination-area-bd {
+      flex-direction: column;
+    }
+  
+    .group-39-oqe, .group-40-B4p, .group-41-iyA{
+      flex-direction: column;
+      width: 100%;
+    }
+  
+  
+  .hotel-place, .map-content, .price-tag{
+    flex-direction: column;
+  }
+  
+  .hotel-content, .mapping-ti, .price-tag-content{
+    align-content: center;
+  }
+  
+  
+    .popular-tour-container,
+    .perfect-place-area,
+    .newsletter-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .popular-tour-content {
+      flex-direction: column;
+      order: 1;
+    }
+  
+    .mountain-img {
+      width: 100%;
+      order: 2;
+    }
+  
+    .perfect-place-group {
+      flex-direction: column;
+      order: 1;
+    }
+  
+    .mountain-img-content {
+      width: 100%;
+      order: 2;
+    }
+  
+    .newsletter-content {
+      width: 100%;
+      order: 1;
+  
+    }
+  
+    .newsletter-section-img-content {
+      width: 100%;
+      order: 2;
+    }
+  
+  
+    .footer-section {
+      margin-top: 40px;
+      width: 100%;
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+  
+  }

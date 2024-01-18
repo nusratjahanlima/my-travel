@@ -1,0 +1,1961 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Mulish', sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+input {
+	border: none;
+}
+
+body {
+	width: 144rem;
+}
+
+.header-section {
+	max-width: 1250px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.nav-container {
+	min-height: 40px;
+	display: flex;
+	align-items: center;
+	width: 50%;
+}
+
+.nav-container img {
+	width: 90px;
+	object-fit: cover;
+}
+
+.nav-container p {
+	font-size: 25px;
+}
+
+.special {
+	color: #ff5400;
+	font-weight: 900;
+}
+
+.items-container {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.items-container a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #424247;
+}
+
+
+.vedio-text-feature{
+	max-width: 1150px;
+	margin: 0 auto;
+	min-height: 300px;
+	display: flex;
+	margin-top: 30px;
+	border-radius: 10px;
+	padding: 20px;
+  }
+  .text-container {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+  }
+
+  .banner-heading {
+	background: linear-gradient(45deg, #e06513, #a779a7);
+	background-clip: text;
+	color: transparent;
+	font-size: 40px;
+	text-align: center;
+  }
+
+  #collections {
+	font-family: "Dancing Script", cursive;
+	font-size: 30px;
+	text-align: center;
+  }
+
+.container {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	padding: 5rem 12.7rem 10rem 13.5rem;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+
+}
+
+.banner-section {
+	margin: 0rem 0.8rem 10rem 0rem;
+	box-sizing: border-box;
+	padding: 10.6rem 18.5rem;
+	width: 117rem;
+	height: 50rem;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 8.png');
+	border-radius: 1.6rem;
+
+}
+
+.banner-section .banner-contain {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.8rem;
+}
+
+.banner-section .banner-contain .banner-text-container {
+	margin: 0rem 7.65rem 4.8rem 7.65rem;
+	width: calc(100% - 15.3rem);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.banner-section .banner-contain .banner-text-container .explore-your-travel {
+	margin-bottom: 2.3rem;
+	font-size: 6.4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+
+}
+
+.banner-section .banner-contain .banner-text-container .banner-text-prgp {
+	max-width: 64.7rem;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #ffffff;
+
+
+}
+
+.banner-section .banner-contain .banner-text-form {
+	box-sizing: border-box;
+	padding: 1.6rem;
+	width: 100%;
+	height: 8.4rem;
+	display: flex;
+	column-gap: 2.4rem;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.3000000119);
+	border-radius: 0.8rem;
+
+}
+
+.banner-section .banner-contain .banner-text-form .form-one {
+	box-sizing: border-box;
+	padding: 1.6rem 1.6rem 1.5rem 1.6rem;
+	width: 17.4rem;
+	height: 100%;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: rgba(19, 19, 24, 0.5);
+	white-space: nowrap;
+	background-color: #ffffff;
+	border-radius: 0.8rem;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-2 {
+	box-sizing: border-box;
+	padding: 1.6rem 1.95rem 1.5rem 1.5rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+	border-radius: 0.8rem;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-2 .form-two {
+	margin-right: 7.85rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: rgba(19, 19, 24, 0.5);
+	white-space: nowrap;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-2 .frame-one {
+	margin-bottom: 0.1rem;
+	width: 1.5rem;
+	height: 0.75rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-3 {
+	box-sizing: border-box;
+	padding: 1.6rem 1.95rem 1.5rem 1.5rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+	border-radius: 0.8rem;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-3 .form-three {
+	margin-right: 3.95rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: rgba(19, 19, 24, 0.5);
+	white-space: nowrap;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-3 .frame-two {
+	margin-bottom: 0.1rem;
+	width: 1.5rem;
+	height: 0.75rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-4 {
+	box-sizing: border-box;
+	padding: 1.4rem 3.4rem 1.4rem 3.5rem;
+	width: 17.4rem;
+	height: 100%;
+	background-color: #ff5400;
+	border-radius: 0.8rem;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-4 .button-form {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.3rem;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-4 .button-form .frame-three {
+	margin: 0rem 1.1rem 0.1rem 0rem;
+	width: 1.8001rem;
+	height: 1.8001rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.banner-section .banner-contain .banner-text-form .banner-text-form-4 .button-form .form-four {
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+
+}
+
+.popular-tour-container {
+	margin: 0rem 0.8rem 10rem 0rem;
+	width: calc(100% - 0.8rem);
+	height: 55rem;
+	display: flex;
+	align-items: center;
+
+}
+
+.popular-tour-container .popular-tour-content {
+	margin-right: 7.3rem;
+	width: 55.7rem;
+	height: 100%;
+
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-text-content {
+	margin-bottom: 3.2rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-text-content .our-popular-tours {
+	margin-bottom: 2.3rem;
+	width: 100%;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-text-content .our-popular-tours-text-1 {
+	margin-bottom: 2.4rem;
+	max-width: 55.7rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: rgba(19, 19, 24, 0.6999999881);
+
+
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-text-content .popular-tour-text-content-1 {
+	margin-bottom: 2.4rem;
+	row-gap: 1.6rem;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-text-content .popular-tour-text-content-1 .our-popular-tours-text-2 {
+	max-width: 52.3rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: rgba(19, 19, 24, 0.6999999881);
+
+
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-text-content .popular-tour-text-content-1 .our-popular-tours-text-3 {
+	max-width: 48.5rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: rgba(19, 19, 24, 0.6999999881);
+
+
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-text-content .popular-tour-text-content-1 .our-popular-tours-text-4 {
+	max-width: 50.5rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: rgba(19, 19, 24, 0.6999999881);
+
+
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-text-content .our-popular-tours-text-5 {
+	max-width: 53rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+}
+
+.popular-tour-container .popular-tour-content .popular-tour-button-content {
+	width: 17.4rem;
+	height: 5.2rem;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ff5400;
+	border-radius: 0.8rem;
+}
+
+.popular-tour-container .mountain-img img {
+	width: 54rem;
+	height: 55rem;
+	object-fit: cover;
+	vertical-align: top;
+	border-radius: 1.6rem;
+
+}
+
+.destination-content {
+	margin: 0rem 28.65rem 4.8rem 27.75rem;
+	width: calc(100% - 56.4rem);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.destination-content .choose-your-destination {
+	margin: 0rem 0.1rem 2.3rem 0rem;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.destination-content .destination-text {
+	max-width: 61.4rem;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: rgba(19, 19, 24, 0.6999999881);
+
+
+}
+
+.destination-area {
+	margin: 0rem 0.8rem 2.4rem 0rem;
+	width: calc(100% - 0.8rem);
+	height: 30rem;
+	display: flex;
+	align-items: center;
+
+}
+
+.destination-area .destination-name-maldives {
+	margin-right: 2.4rem;
+	width: 57.3rem;
+	height: 100%;
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(19, 19, 24, 0.200000003);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 5.png');
+	border-radius: 1.6rem;
+
+}
+
+.destination-area .destination-name-indonesia {
+	width: 57.3rem;
+	height: 100%;
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 8.png');
+
+}
+
+.destination-area-snak {
+	margin: 0rem 0.8rem 2.4rem 0rem;
+	height: 28.6rem;
+	display: flex;
+	column-gap: 2.4rem;
+	align-items: center;
+
+}
+
+.destination-area-snak .destination-name-srilanka {
+	width: 37.4rem;
+	height: 100%;
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(19, 19, 24, 0.200000003);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 6.png');
+	border-radius: 1.6rem;
+
+}
+
+.destination-area-snak .destination-name-northamerica {
+	width: 47.4rem;
+	height: 100%;
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(19, 19, 24, 0.200000003);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 7.png');
+	border-radius: 1.6rem;
+
+}
+
+.destination-area-snak .destination-name-kashmir {
+	width: 27.4rem;
+	height: 100%;
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(19, 19, 24, 0.200000003);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../ImageS/Rectangle\ 9.png');
+	border-radius: 1.6rem;
+
+}
+
+.destination-area-bd {
+	margin: 0rem 0.8rem 10rem 0rem;
+	width: calc(100% - 0.8rem);
+	height: 30rem;
+	display: flex;
+	align-items: center;
+
+}
+
+.destination-area-bd .destination-name-my-bangladesh {
+	margin-right: 2.4rem;
+	width: 47.3rem;
+	height: 100%;
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(19, 19, 24, 0.200000003);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 11.png');
+	border-radius: 1.6rem;
+
+}
+
+.destination-area-bd .destination-name-bandarban {
+	width: 67.3rem;
+	height: 100%;
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(19, 19, 24, 0.200000003);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 10.png');
+	border-radius: 1.6rem;
+
+}
+
+.choose-section {
+	margin: 0rem 28.65rem 4.8rem 27.75rem;
+	width: calc(100% - 56.4rem);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.choose-section .choose-text {
+	margin-bottom: 2.3rem;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.choose-section .choose-text-describe {
+	max-width: 61.4rem;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: rgba(19, 19, 24, 0.6999999881);
+
+
+}
+
+.hotel-place {
+	margin: 0rem 0.8rem 2.4rem 0rem;
+	width: calc(100% - 0.8rem);
+	height: 28.4rem;
+	display: flex;
+	align-items: center;
+
+}
+
+.hotel-place .hotel-content {
+	margin-right: 2.4rem;
+	box-sizing: border-box;
+	padding: 3.2rem 5.5rem 3.2rem 3.2rem;
+	width: 57.3rem;
+	height: 100%;
+	border: solid 0.1rem rgba(251, 181, 99, 0.200000003);
+	background-color: rgba(251, 181, 99, 0.0500000007);
+	border-radius: 1.6rem;
+
+}
+
+.hotel-place .hotel-content .hotel-ti {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.hotel-place .hotel-content .hotel-ti .hotel-img {
+	margin-bottom: 3.2rem;
+	width: 6.4rem;
+	height: 6.4rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.hotel-place .hotel-content .hotel-ti .hotel-text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.hotel-place .hotel-content .hotel-ti .hotel-text .handpicked-hotels-text {
+	margin-bottom: 1.5rem;
+	width: 100%;
+	text-align: center;
+	font-size: 2.4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.hotel-place .hotel-content .hotel-ti .hotel-text .choose-text-describe-2 {
+	max-width: 48.6rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+
+}
+
+.hotel-place .map-content {
+	box-sizing: border-box;
+	padding: 3.2rem 5.5rem 3.2rem 3.2rem;
+	width: 57.3rem;
+	height: 100%;
+	border: solid 0.1rem rgba(41, 206, 246, 0.200000003);
+	background-color: rgba(41, 206, 246, 0.0500000007);
+	border-radius: 1.6rem;
+
+}
+
+.hotel-place .map-content .mapping-ti {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.hotel-place .map-content .mapping-ti .map-img {
+	margin-bottom: 3.2rem;
+	width: 6.4rem;
+	height: 6.4rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.hotel-place .map-content .mapping-ti .map-text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.hotel-place .map-content .mapping-ti .map-text .world-class-service {
+	margin-bottom: 1.5rem;
+	font-size: 2.4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.hotel-place .map-content .mapping-ti .map-text .choose-text-describe-3 {
+	max-width: 48.6rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+
+}
+
+.price-tag {
+	margin: 0rem 30.7rem 10rem 29.8rem;
+	box-sizing: border-box;
+	padding: 3.2rem 5.5rem 3.2rem 3.2rem;
+	width: calc(100% - 60.5rem);
+	height: 28.4rem;
+	border: solid 0.1rem rgba(233, 68, 68, 0.200000003);
+	background-color: rgba(233, 68, 68, 0.0500000007);
+	border-radius: 1.6rem;
+
+}
+
+.price-tag .price-tag-content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.price-tag .price-tag-content .price-tag-img {
+	margin-bottom: 3.2rem;
+	width: 6.4rem;
+	height: 6.4rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.price-tag .price-tag-content .price-text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.price-tag .price-tag-content .price-text .best-price-guarantee {
+	margin-bottom: 1.5rem;
+	font-size: 2.4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.price-tag .price-tag-content .price-text .amet-consectetur-vulputate-commodo-felis-molestie-risus-ornare-nulla-amet-et-libero-commodo-sagittis-dignissim-adipiscing-quis-habitant-adipiscing-risus-natoque-aliquet-sQG {
+	max-width: 48.6rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+
+}
+
+.deals-discounts-section {
+	margin: 0rem 28.65rem 4.8rem 27.75rem;
+	width: calc(100% - 56.4rem);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.deals-discounts-section .deals-discounts-text {
+	margin-bottom: 2.3rem;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.deals-discounts-section .deals-discounts-text-main {
+	max-width: 61.4rem;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: rgba(19, 19, 24, 0.6999999881);
+
+
+}
+
+.group-39-oqe {
+	margin: 0rem 0.8rem 2.4rem 0rem;
+	box-sizing: border-box;
+	padding: 5.6rem 5.6rem 5.5rem 53.5rem;
+	width: 117rem;
+	height: 50rem;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 12.png');
+	border-radius: 1.6rem;
+
+}
+
+.group-39-oqe .group-38-7LY {
+	box-sizing: border-box;
+	padding: 5rem 7.7rem 5rem 5rem;
+	width: 100%;
+	height: 100%;
+	border: solid 0.2rem #ffffff;
+	backdrop-filter: blur(0.25rem);
+	background-color: rgba(255, 255, 255, 0.8000000119);
+	border-radius: 1.6rem;
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx {
+	margin-bottom: 2.4rem;
+	height: 2.4rem;
+	display: flex;
+	column-gap: 2.4rem;
+	align-items: center;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-32-i5S {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.225rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-32-i5S .frame-Zrk {
+	margin: 0rem 1.025rem 0.1rem 0rem;
+	width: 1.95rem;
+	height: 1.95rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-32-i5S .day-6-night-fun {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-33-Q6g {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.15rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-33-Q6g .frame-LW8 {
+	margin: 0rem 0.95rem 0.025rem 0rem;
+	width: 2.1rem;
+	height: 1.875rem;
+	position: relative;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-33-Q6g .max-10-Tak {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-34-PjJ {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.375rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-34-PjJ .frame-XqW {
+	margin: 0rem 1.175rem 0.025rem 0rem;
+	width: 1.65rem;
+	height: 2.0248rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-35-PYx .group-34-PjJ .malaysia-FWc {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-36-Bv4 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.8rem;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-36-Bv4 .tour-to-satorini-tts-tts-wuE {
+	margin-bottom: 1.5rem;
+	font-size: 2.4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-36-Bv4 .deals-discounts-text-auto {
+	margin-bottom: 1.6rem;
+	max-width: 45.1rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-36-Bv4 .price-1300-1500-P35-MTA {
+	margin-bottom: 2.3rem;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ff5400;
+	white-space: nowrap;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-36-Bv4 .group-8-tCC {
+	width: 15rem;
+	height: 5.2rem;
+	border-radius: 0.8rem;
+
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-36-Bv4 .group-8-tCC .group-7-SUc {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.8rem;
+}
+
+.group-39-oqe .group-38-7LY .group-37-qGY .group-36-Bv4 .group-8-tCC .group-7-SUc .group-31-11v {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ff5400;
+	border-radius: 0.8rem;
+}
+
+.group-40-B4p {
+	margin: 0rem 0.8rem 2.4rem 0rem;
+	box-sizing: border-box;
+	padding: 5.6rem 5.6rem 5.5rem 5.6rem;
+	width: 117rem;
+	height: 50rem;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ reverse.png');
+	border-radius: 1.6rem;
+
+}
+
+.group-40-B4p .group-38-g1a {
+	margin-right: 47.9rem;
+	box-sizing: border-box;
+	padding: 5rem 7.7rem 5rem 5rem;
+	width: 57.9rem;
+	height: 100%;
+	border: solid 0.2rem #ffffff;
+	backdrop-filter: blur(0.25rem);
+	background-color: rgba(255, 255, 255, 0.8000000119);
+	border-radius: 1.6rem;
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn {
+	margin-bottom: 2.4rem;
+	height: 2.4rem;
+	display: flex;
+	column-gap: 2.4rem;
+	align-items: center;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-32-6b6 {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.225rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-32-6b6 .frame-C8L {
+	margin: 0rem 1.025rem 0.1rem 0rem;
+	width: 1.95rem;
+	height: 1.95rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-32-6b6 .day-6-night-tmr {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-33-chr {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.15rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-33-chr .frame-Ltk {
+	margin: 0rem 0.95rem 0.025rem 0rem;
+	width: 2.1rem;
+	height: 1.875rem;
+	position: relative;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-33-chr .max-10-Fkp {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-34-Pc8 {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.375rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-34-Pc8 .frame-vc4 {
+	margin: 0rem 1.175rem 0.025rem 0rem;
+	width: 1.65rem;
+	height: 2.0248rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-35-xjn .group-34-Pc8 .malaysia-SqJ {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-36-Nix {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.8rem;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-36-Nix .tour-to-satorini-tts-tts-Xbr {
+	margin-bottom: 1.5rem;
+	font-size: 2.4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-36-Nix .deals-discounts-text-prg {
+	margin-bottom: 1.6rem;
+	max-width: 45.1rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-36-Nix .price-1300-1500-P35-7px {
+	margin-bottom: 2.3rem;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ff5400;
+	white-space: nowrap;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-36-Nix .group-8-r1r {
+	width: 15rem;
+	height: 5.2rem;
+	border-radius: 0.8rem;
+
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-36-Nix .group-8-r1r .group-7-QJG {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.8rem;
+}
+
+.group-40-B4p .group-38-g1a .group-37-buE .group-36-Nix .group-8-r1r .group-7-QJG .group-31-AoE {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ff5400;
+	border-radius: 0.8rem;
+}
+
+.group-41-iyA {
+	margin: 0rem 0.8rem 4.8rem 0rem;
+	box-sizing: border-box;
+	padding: 5.6rem 5.6rem 5.5rem 53.5rem;
+	width: 117rem;
+	height: 50rem;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../Images/Rectangle\ 12.png');
+	border-radius: 1.6rem;
+
+}
+
+.group-41-iyA .group-38-2U4 {
+	box-sizing: border-box;
+	padding: 5rem 7.7rem 5rem 5rem;
+	width: 100%;
+	height: 100%;
+	border: solid 0.2rem #ffffff;
+	backdrop-filter: blur(0.25rem);
+	background-color: rgba(255, 255, 255, 0.8000000119);
+	border-radius: 1.6rem;
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a {
+	margin-bottom: 2.4rem;
+	height: 2.4rem;
+	display: flex;
+	column-gap: 2.4rem;
+	align-items: center;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-32-G7W {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.225rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-32-G7W .frame-Chs {
+	margin: 0rem 1.025rem 0.1rem 0rem;
+	width: 1.95rem;
+	height: 1.95rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-32-G7W .day-6-night-89i {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-33-rrQ {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.15rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-33-rrQ .frame-hHE {
+	margin: 0rem 0.95rem 0.025rem 0rem;
+	width: 2.1rem;
+	height: 1.875rem;
+	position: relative;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-33-rrQ .max-10-JiQ {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-34-rE8 {
+	box-sizing: border-box;
+	padding: 0.2rem 0rem 0.1rem 0.375rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-34-rE8 .frame-rhz {
+	margin: 0rem 1.175rem 0.025rem 0rem;
+	width: 1.65rem;
+	height: 2.0248rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-35-j7a .group-34-rE8 .malaysia-WpU {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #5a5a5d;
+	white-space: nowrap;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-36-FGG {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.8rem;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-36-FGG .tour-to-satorini-tts {
+	margin-bottom: 1.5rem;
+	font-size: 2.4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-36-FGG .deals-discounts-text-bg {
+	margin-bottom: 1.6rem;
+	max-width: 45.1rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-36-FGG .price-1300-1500-P35 {
+	margin-bottom: 2.3rem;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ff5400;
+	white-space: nowrap;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-36-FGG .group-8-8jN {
+	width: 15rem;
+	height: 5.2rem;
+	border-radius: 0.8rem;
+
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-36-FGG .group-8-8jN .group-7-VK2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.8rem;
+}
+
+.group-41-iyA .group-38-2U4 .group-37-y8Q .group-36-FGG .group-8-8jN .group-7-VK2 .book-now-text-3 {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ff5400;
+	border-radius: 0.8rem;
+}
+
+.group-8-Efv {
+	margin: 0rem 48.8rem 10rem 48rem;
+	width: calc(100% - 96.8rem);
+	height: 5.2rem;
+	border-radius: 0.8rem;
+
+}
+
+.group-8-Efv .group-7-AJg {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.8rem;
+}
+
+.group-8-Efv .group-7-AJg .see-all-packages {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ff5400;
+	border-radius: 0.8rem;
+}
+
+
+.perfect-place-area {
+	margin: 0rem 0.8rem 10rem 0rem;
+	width: calc(100% - 0.8rem);
+	height: 42.4rem;
+	display: flex;
+	align-items: center;
+
+}
+
+.perfect-place-area .perfect-place-group {
+	margin: 0rem 2.8rem 0rem 0rem;
+	width: 53.2rem;
+	height: calc(100% - 0rem);
+	border-radius: 0.8rem;
+
+}
+
+.perfect-place-area .perfect-place-group .perfect-place-text-1 {
+	margin-bottom: 2.4rem;
+	max-width: 44.1rem;
+	font-size: 4rem;
+	font-weight: 800;
+	line-height: 1.5;
+	color: #131318;
+
+}
+
+.perfect-place-area .perfect-place-group .perfect-place-text-2 {
+	margin-bottom: 2.4rem;
+	max-width: 52.6rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+}
+
+.perfect-place-area .perfect-place-group .perfect-place-text-3 {
+	margin-bottom: 1.6rem;
+	max-width: 50.4rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.625;
+	color: #131318;
+
+}
+
+.perfect-place-area .perfect-place-group .perfect-place-text-4 {
+	margin-bottom: 3.2rem;
+	max-width: 50.4rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.625;
+	color: #131318;
+
+}
+
+.perfect-place-area .perfect-place-group .perfect-place-button {
+	width: 17.4rem;
+	height: 5.2rem;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ff5400;
+	border-radius: 0.8rem;
+}
+
+.perfect-place-area .mountain-img-content {
+	margin-right: 0rem;
+	width: 61rem;
+	height: 100%;
+	position: relative;
+
+}
+
+.perfect-place-area .mountain-img-content .mountain-img-mi {
+	width: 61rem;
+	height: 42.4rem;
+	position: absolute;
+	left: 0;
+	top: 0rem;
+	object-fit: cover;
+	vertical-align: top;
+	border-radius: 1.6rem;
+}
+
+.perfect-place-area .mountain-img-content .mountain-img-option-content {
+	width: 61rem;
+	height: 42.4rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%);
+	border-radius: 1.6rem;
+}
+
+.perfect-place-area .mountain-img-content .mountain-img-option-group-1 {
+	width: 56.2rem;
+	height: 0.4rem;
+	position: absolute;
+	left: 2.4rem;
+	top: 39.5rem;
+	border-radius: 0.8rem;
+}
+
+.perfect-place-area .mountain-img-content .mountain-img-option-group-1 .mountain-img-option-group-2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.8rem;
+}
+
+.perfect-place-area .mountain-img-content .mountain-img-option-group-1 .mountain-img-option-group-2 .mountain-img-option-group-3 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.3000000119);
+	border-radius: 0.8rem;
+}
+
+.perfect-place-area .mountain-img-content .mountain-img-option-group-1 .mountain-img-option-group-2 .mountain-img-option-group-3 .mountain-img-option-group-4 {
+	margin-right: 47.5rem;
+	width: 8.7rem;
+	height: 100%;
+	border-radius: 0.8rem;
+}
+
+.perfect-place-area .mountain-img-content .mountain-img-option-group-1 .mountain-img-option-group-2 .mountain-img-option-group-3 .mountain-img-option-group-4 .mountain-group-bg {
+	width: 100%;
+	height: 0.4rem;
+	background-color: #ffffff;
+	border-radius: 0.8rem;
+}
+
+.perfect-place-area .mountain-img-content .mountain-content-criteria-mcc {
+	width: 6.6rem;
+	height: 2.4rem;
+	position: absolute;
+	left: 2.4rem;
+	top: 35.5rem;
+	display: flex;
+	align-items: center;
+}
+
+.perfect-place-area .mountain-img-content .mountain-content-criteria-mcc .start-stop-criteria-img {
+	margin-right: 1.2rem;
+	width: 2.4rem;
+	height: 2.4rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.perfect-place-area .mountain-img-content .mountain-content-criteria-mcc .item-000-criteria {
+	margin-top: 0.1rem;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 400;
+	line-height: 1.2125;
+	color: #f3f3f3;
+	font-family: Inter, 'Source Sans Pro';
+	white-space: nowrap;
+
+}
+
+.perfect-place-area .mountain-img-content .mountain-content-criteria-two {
+	box-sizing: border-box;
+	padding-right: 1.125rem;
+	width: 10.4rem;
+	height: 2.4rem;
+	position: absolute;
+	left: 48.2rem;
+	top: 35.5rem;
+	display: flex;
+	align-items: center;
+}
+
+.perfect-place-area .mountain-img-content .mountain-content-criteria-two .sound-play-img {
+	margin-right: 2.725rem;
+	width: 6.4rem;
+	height: 2.4rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.perfect-place-area .mountain-img-content .mountain-content-criteria-two .screen-display-img {
+	width: 0.15rem;
+	height: 1.35rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.perfect-place-area .mountain-img-content .watch-our-mountain-in-bangladesh {
+	width: 27.5rem;
+	height: 7.2rem;
+	position: absolute;
+	left: 16.75rem;
+	top: 17.6rem;
+	text-align: center;
+	font-size: 2.4rem;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #ffffff;
+
+}
+
+.newsletter-container {
+	margin: 0rem 0.752rem 0rem 0rem;
+	width: calc(100% - 0.7517rem);
+	height: 42.2rem;
+	display: flex;
+	align-items: center;
+
+}
+
+.newsletter-container .newsletter-content {
+	margin-right: 2.4rem;
+	box-sizing: border-box;
+	padding: 4rem 4.1rem 4rem 4rem;
+	width: 47.4rem;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	border: solid 0.1rem #ff5400;
+	border-radius: 1.6rem;
+
+}
+
+.newsletter-container .newsletter-content .newsletter-text-content {
+	margin: 0rem 5.6rem 2.4rem 0rem;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.newsletter-container .newsletter-content .newsletter-text-content .newsletter {
+	margin-bottom: 1.5rem;
+	font-size: 2.4rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #131318;
+	white-space: nowrap;
+
+}
+
+.newsletter-container .newsletter-content .newsletter-text-content .newsletter-text-dtn-sp {
+	max-width: 33.7rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+
+}
+
+.newsletter-container .newsletter-content .line-1-nLC {
+	margin-bottom: 2.3rem;
+	width: 100%;
+	height: 0.1rem;
+	background-color: rgba(19, 19, 24, 0.1000000015);
+
+}
+
+.newsletter-container .newsletter-content .input-form-name {
+	margin-bottom: 1.6rem;
+	width: 100%;
+	height: 5.2rem;
+	border-radius: 0.8rem;
+
+}
+
+.newsletter-container .newsletter-content .input-form-name .input-form-EYN {
+	box-sizing: border-box;
+	padding: 1.6rem 2rem 1.5rem 2rem;
+	width: 100%;
+	height: 100%;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: rgba(19, 19, 24, 0.3000000119);
+	white-space: nowrap;
+	background-color: rgba(19, 19, 24, 0.0500000007);
+	border-radius: 0.8rem;
+}
+
+.newsletter-container .newsletter-content .input-form-email {
+	margin-bottom: 2.4rem;
+	width: 100%;
+	height: 5.2rem;
+	border-radius: 0.8rem;
+
+}
+
+.newsletter-container .newsletter-content .input-form-email .input-form-EYM {
+	box-sizing: border-box;
+	padding: 1.6rem 2rem 1.5rem 2rem;
+	width: 100%;
+	height: 100%;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.255;
+	color: rgba(19, 19, 24, 0.3000000119);
+	white-space: nowrap;
+	background-color: rgba(19, 19, 24, 0.0500000007);
+	border-radius: 0.8rem;
+}
+
+.newsletter-container .newsletter-content .subscribe-btn {
+	width: 100%;
+	height: 5.2rem;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ff5400;
+	border-radius: 0.8rem;
+
+}
+
+.newsletter-container .newsletter-section-img-content {
+	width: 67.2483rem;
+	height: 100%;
+	position: relative;
+
+}
+
+.newsletter-container .newsletter-section-img-content .newsletter-img-5tg {
+	width: 67.2rem;
+	height: 42.2rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	object-fit: cover;
+	vertical-align: top;
+	border-radius: 1.6rem;
+}
+
+.newsletter-container .newsletter-section-img-content .newsletter-offer-tag {
+	box-sizing: border-box;
+	padding: 5.626rem 4.466rem 5.626rem 5.682rem;
+	width: 324px;
+	height: 140px;
+	position: absolute;
+	left: 30.7rem;
+	top: 24rem;
+	background-color: #ff5400;
+	border-radius: 1.6rem;
+	transform: rotate(-10.628deg);
+
+}
+
+.newsletter-container .newsletter-section-img-content .newsletter-offer-tag .newsletter-offer-text {
+	width: 100%;
+	height: 5.1862rem;
+	position: relative;
+}
+
+.newsletter-container .newsletter-section-img-content .newsletter-offer-tag .newsletter-offer-text .travelcom {
+	width: 11.9rem;
+	height: 3.1rem;
+	position: absolute;
+	left: 4.8557rem;
+	align-items: center;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	transform: rotate(-5.628deg);
+}
+
+.newsletter-container .newsletter-section-img-content .newsletter-offer-tag .newsletter-offer-text .save-up-to-70 {
+	width: 24.4rem;
+	height: 4.1rem;
+	position: absolute;
+	left: 0;
+	top: 1.0862rem;
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ffffff;
+	white-space: nowrap;
+	transform: rotate(-5.628deg);
+}
+
+
+.footer-section {
+	box-sizing: border-box;
+	padding: 11rem 6rem 10.9rem 6rem;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(19, 19, 24, 0.0500000007);
+
+}
+
+.footer-section .footer-content {
+	margin: 0rem 54.733rem 1.4rem 54rem;
+	width: calc(100% - 108.7327rem);
+	display: flex;
+	align-items: flex-start;
+
+}
+
+.footer-section .footer-content .footer-img {
+	margin-right: 1.6rem;
+	width: 4.6673rem;
+	height: 4rem;
+	object-fit: contain;
+	vertical-align: top;
+
+}
+
+.footer-section .footer-content .Luxury-travel-ltf {
+	margin-top: 0rem;
+	font-size: 3.2rem;
+	font-weight: 800;
+	line-height: 1.2549999952;
+	color: #121218;
+	white-space: nowrap;
+	display: flex;
+	align-items: baseline;
+
+}
+
+.footer-section .footer-content .Luxury-travel-ltf .Luxury-travel-ltf-sub-0 {
+	font-size: 3.2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #121218;
+
+}
+
+.footer-section .footer-content .Luxury-travel-ltf .Luxury-travel-ltf-sub-1 {
+	font-size: 3.2rem;
+	font-weight: 800;
+	line-height: 1.255;
+	color: #ff5400;
+
+}
+
+.footer-section .footer-text {
+	margin: 0rem 0.1rem 3.2rem 0rem;
+	max-width: 75rem;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.625;
+	color: #5a5a5d;
+
+
+}
+
+.footer-section .icon-section {
+	margin-bottom: 5rem;
+	width: 15rem;
+	height: auto;
+	position: relative;
+	align-items: center;
+	vertical-align: top;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.footer-section .icon-section img {
+	width: 20px;
+	height: auto;
+	object-fit: contain;
+
+}
+
+
+.footer-section .footer-line {
+	margin: 0rem 22.4rem 4.9rem 22.4rem;
+	width: calc(100% - 44.8rem);
+	height: 0.1rem;
+	background-color: rgba(19, 19, 24, 0.1000000015);
+
+}
+
+.footer-section .all-rights-reserved {
+	margin-right: 0.1rem;
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 1.2125;
+	color: #131318;
+	font-family: Inter, 'Source Sans Pro';
+	white-space: nowrap;
+
+}
